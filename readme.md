@@ -15,6 +15,11 @@ Hi! This is a simple random password generator chrome extension. This allows you
  - Doesn't store your password.
   # Screenshots 📷
   
+| ![enter image description here](https://raw.githubusercontent.com/SkillBlitz/Random-Password-Generator-Chrome-Extension/main/screenshots/1.png) | ![enter image description here](https://raw.githubusercontent.com/SkillBlitz/Random-Password-Generator-Chrome-Extension/main/screenshots/2.png) |
+|--|--|
+| ![enter image description here](https://raw.githubusercontent.com/SkillBlitz/Random-Password-Generator-Chrome-Extension/main/screenshots/3.png) |  |
+
+  
   ## Note:-
   This chrome extension doesn't store your password.
 
