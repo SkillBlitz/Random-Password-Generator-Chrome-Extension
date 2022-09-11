@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Password Generaor",
+  "version": "1.0.0",
+  "description": "This is a simple Password Generaor developed by skillblitz.com",
+  "author": "skillblitz",
+  "icons": {
+    "16": "images/password.png",
+    "32": "images/password.png",
+    "48": "images/password.png",
+    "128": "images/password.png"
+  },
+  "action": {
+    "default_title": "Click here to Generate Password",
+    "default_popup": "index.html"
+  }
+
+}

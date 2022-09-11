@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generaor - SkilBlitz</title>
+    <!-- css -->
+    <link href="./css/app.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <ul class="nav-brand">
+            <li>
+                <img src="./images/password.png" alt="Password generator Logo">
+            </li>
+            <li class="brand-name">Password Generaor</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="password-display">
+            <div class="password-box">
+                <input type="text" name="password" id="password" disabled>
+            </div>
+            <div class="password-display-toolbar">
+                <img src="./images/copy.png" id="copy-pwd-header" alt="copy password" title="Copy Password">
+                <img src="./images/generate.png" id="generate-pwd-header" alt="generate password"
+                    title="Generate Password">
+            </div>
+        </div>
+
+        <div class="password-customizer">
+            <h2>Customize Your Password</h2>
+            <div class="password-length-box">
+                <input type="range" id="passwordLengthRangeSlider" min="1" max="50" value="12">
+                <input type="text" id="passwordLength" min="1" max="50" value="12" disabled>
+            </div>
+            <div class="password-cust">
+                <div class="cust-option">
+                    <input type="checkbox" name="uppercase" id="uppercase" checked>
+                    <label>Uppercase</label>
+                </div>
+                <div class="cust-option">
+                    <input type="checkbox" name="lowercase" id="lowercase" checked>
+                    <label>Lowercase</label>
+                </div>
+                <div class="cust-option">
+                    <input type="checkbox" name="numbers" id="numbers" checked>
+                    <label>Numbers</label>
+                </div>
+                <div class="cust-option">
+                    <input type="checkbox" name="symbols" id="symbols" checked>
+                    <label>Symbols</label>
+                </div>
+            </div>
+
+            <div class="password-butttons">
+                <button type="button" id="copy-pwd-btn" title="Copy Password" class="copy-btn">Copy Password</button>
+                <button type="button" id="generate-pwd-btn" title="Generate Password" class="generate-pwd-btn">Generate
+                    Password</button>
+            </div>
+        </div>
+
+        <div class="password-copy-status" id="password-copy-status">
+            <label>Password copied to clipboard</label>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Developed by <a href="https://skillblitz.com" target="_blank">Skillblitz</a>.</p>
+    </footer>
+    <!-- Javascript -->
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
